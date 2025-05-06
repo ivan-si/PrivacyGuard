@@ -1,0 +1,10 @@
+# Ignore the specific test Flask app
+testing_site/wpltracker.py
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*venv/
+*.env
+.env
