@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrivacyGuard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PrivacyGuard</h1>
+
+    <div class="section">
+      <div class="toggle-container">
+        <span>Tracker Blocking</span>
+        <label class="switch">
+          <input type="checkbox" id="trackerBlockingToggle"> <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="stats">
+        <p>Trackers blocked: 98 </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="toggle-container">
+        <span>Fingerprint Protection</span>
+        <label class="switch">
+          <input type="checkbox" id="fingerprintProtectionToggle"> <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="stats">
+         <p>Fingerprinting attempts: <id="fpCount">23</p>
+      </div>
+       </div>
+
+    </div>
+  <script src="popup.js"></script>
+</body>
+</html>

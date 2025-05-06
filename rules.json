@@ -1,0 +1,25 @@
+{
+  "target_domains": [
+  ],
+  "css_selectors": [
+    ".ad-banner",
+    ".advert",
+    ".advertisement",
+    ".ad-wrapper",
+    ".ad-container",
+    ".ad-slot",
+    ".google-ad",
+    "#ad_bnr",
+    "#google_ads_iframe",
+    "div[id^='google_ads']",
+    "div[id*='ad_unit']",
+    "ins.adsbygoogle",
+    "[data-ad-unit]",
+    "[data-ad-format]",
+    "a[href*='/ads/']",
+    "a[href*='&adurl=']",
+    "iframe[name^='google_ads_iframe']",
+    "iframe[src*='/ads/']",
+    "iframe[src*='doubleclick.net']"
+  ]
+}
