@@ -47,7 +47,6 @@ PrivacyGuard is a browser extension for Google Chrome designed to enhance user p
 
 A simple Flask application (`wpltracker.py`) was used during development to simulate basic tracking and fingerprinting scenarios. It includes routes to serve tracker scripts (like `trackerbf.js` which performs canvas fingerprinting) and log received data, allowing for controlled testing of the extension's blocking and spoofing capabilities.
 
-*(You would typically include the `wpltracker.py` code or link to it here if sharing the repository)*
 
 ## Installation (Unpacked Extension)
 
